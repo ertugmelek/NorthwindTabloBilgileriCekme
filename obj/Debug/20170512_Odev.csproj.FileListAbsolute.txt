@@ -1,0 +1,10 @@
+c:\users\casper\documents\visual studio 2012\Projects\20170512_Odev\20170512_Odev\bin\20170512_Odev.dll
+c:\users\casper\documents\visual studio 2012\Projects\20170512_Odev\20170512_Odev\bin\20170512_Odev.pdb
+c:\users\casper\documents\visual studio 2012\Projects\20170512_Odev\20170512_Odev\obj\Debug\20170512_Odev.csprojResolveAssemblyReference.cache
+c:\users\casper\documents\visual studio 2012\Projects\20170512_Odev\20170512_Odev\obj\Debug\20170512_Odev.dll
+c:\users\casper\documents\visual studio 2012\Projects\20170512_Odev\20170512_Odev\obj\Debug\20170512_Odev.pdb
+C:\Users\CASPER\Desktop\20170512_Odev\20170512_Odev\20170512_Odev\bin\20170512_Odev.dll
+C:\Users\CASPER\Desktop\20170512_Odev\20170512_Odev\20170512_Odev\bin\20170512_Odev.pdb
+C:\Users\CASPER\Desktop\20170512_Odev\20170512_Odev\20170512_Odev\obj\Debug\20170512_Odev.csprojResolveAssemblyReference.cache
+C:\Users\CASPER\Desktop\20170512_Odev\20170512_Odev\20170512_Odev\obj\Debug\20170512_Odev.dll
+C:\Users\CASPER\Desktop\20170512_Odev\20170512_Odev\20170512_Odev\obj\Debug\20170512_Odev.pdb

@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="sitemMaster.master.cs" Inherits="_20170512_Odev.sitemMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+                li a:hover {
+                    background-color: #111;
+                }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <ul>
+                <li><a class="active" href="#home">Anasayfa</a></li>
+                <li><a href="#news">Haberler</a></li>
+                <li><a href="#contact">İletişim</a></li>
+                <li><a href="#about">Hakkımızda</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-3" style="background-color: #bab7b7; border: solid; margin-top: 70px; float: left;height:300px; width: 200px; margin-bottom: 70px; margin-left: 20px">
+            <h3>Tablolar</h3>
+            <div>
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Categories.aspx" Font-Size="Medium" ForeColor="Black">Categories</asp:HyperLink>
+            </div>
+            <div>
+                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Products.aspx" Font-Size="Medium" ForeColor="Black">Products</asp:HyperLink>
+            </div>
+            <div>
+                <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Orders.aspx" Font-Size="Medium" ForeColor="Black">Orders</asp:HyperLink>
+            </div>
+            <div>
+                <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Suppliers.aspx" Font-Size="Medium" ForeColor="Black">Suppliers</asp:HyperLink>
+            </div>
+            <div>
+                <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/Employees.aspx" Font-Size="Medium" ForeColor="Black">Employees</asp:HyperLink>
+            </div>
+            <div>
+                <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/Customers.aspx" Font-Size="Medium" ForeColor="Black">Customers</asp:HyperLink>
+            </div>
+            <div>
+                <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/Shippers.aspx" Font-Size="Medium" ForeColor="Black">Shippers</asp:HyperLink>
+            </div>
+        </div>
+        <div class="col-sm-8" style="margin-top: 70px; float: left; margin-bottom: 70px; margin-left: 200px">
+            <asp:ContentPlaceHolder ID="Govde" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <footer class="col-xs-12" style="background-color: #333; margin-top: 20px;">
+            <div style="width: 100%; height: 50px;">
+                <div style="color: white; margin-left: 45%;">Bizi takipte kalın...</div>
+            </div>
+        </footer>
+    </form>
+</body>
+</html>
